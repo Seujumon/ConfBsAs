@@ -1,0 +1,52 @@
+header{
+	color: #eee;
+}
+.navbar-brand{
+	font-size: 1.5em;
+
+}
+.nav-link{
+	color: #eee;
+}
+.nav-link:hover{
+	color: #333;
+	background-color: #eee;
+}
+.card-body .btn-primary{
+	--bs-btn-padding-y: .25rem; 
+	--bs-btn-padding-x: .5rem; 
+	--bs-btn-font-size: .75rem;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+
+.bg-dark{
+	color: #eee;
+	background-color: #333;
+}
+
+.brilloImg{
+	filter: brightness(50%);
+}
+
+p span{
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+form .btn{
+	background-color: #79c657    ;
+	border: solid 1px   #79c657 ;
+}
+form .btn:hover{
+	background-color: #4aa024 ;
+	border: 2px solid  #4aa024 ;
+}
+
+@media screen and (max-width:700px) {
+	.fuente{
+	font-size: 12px;
+	}
+	.btn.boton{
+	padding: 0;
+	}
+    }
