@@ -10,8 +10,11 @@ header{
 	color: #eee;
 }
 .nav-link:hover{
-	color: #333;
-	background-color: #eee;
+	color: yellow;
+}
+.verde{
+	color: lightgreen;
+	text-transform: uppercase;
 }
 .card-body .btn-primary{
 	--bs-btn-padding-y: .25rem; 
